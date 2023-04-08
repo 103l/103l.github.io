@@ -62,8 +62,8 @@ a {
     background-color: #608eb7;
     border: .1em solid #272727;
     border-radius: .5em;
-    box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
-    cursor: pointer;
+
+	cursor: pointer;
     font-size: 1em;
     font-weight: bold;
     color: #272727;
