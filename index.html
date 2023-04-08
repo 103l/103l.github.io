@@ -1,46 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Tariquia2</title>
-        <link rel="stylesheet" href="stile.css">
-    </head>
+<html lang="es">
+<head>
+    <title>Tariquia2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <div class="encabezado">
-            <h3>SYSTEMA ACADÉMICO</h3>
-            <h1>TARIQUIA</h1>
+<body>
+    <div id="container">
+        <div id="img"></div>
+        <div class="login">
+            <h1 class="title">TARIQUIA</h1>
+            <h4>Acceso al Sistema</h4>
+            <input
+                type="text"
+                pattern="e[0-9]*"
+                placeholder="Usuario"
+                title="Ejemplo: e123456"
+                spellcheck="false"
+                autocomplete="off"
+            >
+            <input type="password"
+                placeholder="Clave"
+                spellcheck="false"
+                autocomplete="off"
+            >
+            <a href="menu.html">INGRESAR</a>
         </div>
+    </div>
+</body>
 
-        <section class="acceso">
-            <div id="borde">
-                <div id="titulo">
-                    <h1>Acceso al Sistema</h1>
-                </div>
-                <div id="linea"></div>
-                <div class="regisro">
-                    <h3>Usuario</h3>
-                    <input type="text" spellcheck="false" autocomplete="off">
-                </div>
-                <div class="regisro">
-                    <h3>Contraseña</h3>
-                    <input type="password" spellcheck="false" autocomplete="off">
-                </div>
-                <div id="boton">
-                    <button>INGRESAR</button>
-                </div>
-                <div id="linea"></div>
-                <div id="mensaje">
-                    <p>Use un nombre de usuario y contraseña
-                    válidos para acceder al sistema académico.</p>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2007-2017 Universidad Autónoma Juan Misael Saracho <br>
-                Sitio potenciado con sofware librey de código abierto <br>
-                Tarija-Bolivia</p>
-        </footer>
-
-    </body>
 </html>
